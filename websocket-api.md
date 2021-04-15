@@ -63,11 +63,11 @@ The trade stream provides real-time data on matched orders. Each trade contains 
 {
   "stream": "market.trade.thb_eth", // stream name
   "sym":"THB_ETH", // symbol
-  "txn": "ETHSELL0000074282", // transaction id
-  "rat": "5977.00", // rate matched
-  "amt": 1.556539, // amount matched
-  "bid": 2048451, // buy order id
-  "sid": 2924729, // sell order id
+  "txn": "ETHSELL0000500000", // transaction id
+  "rat": "500000.00", // rate matched
+  "amt": 10, // amount matched
+  "bid": 5000000, // buy order id
+  "sid": 50000000, // sell order id
   "ts": 1542268567 // trade timestamp
 }
 ```
